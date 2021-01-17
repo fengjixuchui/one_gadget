@@ -33,13 +33,13 @@ Gem::Specification.new do |s|
     'source_code_uri' => 'https://github.com/david942j/one_gadget'
   }
 
-  s.required_ruby_version = '>= 2.3'
+  s.required_ruby_version = '>= 2.4'
 
   s.add_runtime_dependency 'elftools', '>= 1.0.2', '< 1.2.0'
 
   s.add_development_dependency 'rake', '~> 13.0'
   s.add_development_dependency 'rspec', '~> 3.7'
   s.add_development_dependency 'rubocop', '~> 1.0'
-  s.add_development_dependency 'simplecov', '~> 0.17.0'
+  s.add_development_dependency 'simplecov', '~> 0.17', '< 0.18'
   s.add_development_dependency 'yard', '~> 0.9'
 end
